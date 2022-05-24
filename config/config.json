@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "news-letter-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/newsLetter/NewsLetterWebPart.js",
+          "manifest": "./src/webparts/newsLetter/NewsLetterWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "NewsLetterWebPartStrings": "lib/webparts/newsLetter/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "news-letter",
+    "libraryId": "c8bc0f2c-b0a3-47cf-82d5-db1b4ebe4fbd",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "news-letter",
+    "solutionShortDescription": "news-letter description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
